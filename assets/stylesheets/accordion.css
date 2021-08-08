@@ -4,7 +4,7 @@ body { background: #F2F2F2; font-family: 'Montserrat', sans-serif; }
 .panel { margin-top: 0; border: none; border-bottom: 1px solid #efefef; border-radius: 0; background: #fff !important;  width: 100%; text-align: left; transition: 0.4s; border-bottom: 1px solid #e3e3e3;}
 .panel:last-child { border: none; }
 .panel .content { padding: 0px 20px; background-color: #fff; max-height: 0; overflow: hidden; transition: max-height 0.2s ease-out; }
-.panel .heading { font-size: 0.85em; font-weight: 500; color: #383838; padding: 15px 30px 15px 15px; background: url("../images/keyboard_arrow_up.svg") no-repeat right; background-position: 98% 12px !important; background-size: 28px !important; }
+.panel .heading { font-size: 0.85em; font-weight: 500; color: #383838; padding: 15px 30px 15px 15px; background: url("../images/keyboard_arrow_down.svg") no-repeat right; background-position: 98% 12px !important; background-size: 28px !important; }
 .panel .heading:before{ content: "Q"; font-weight: normal; background: #df8b04; color: #fff; width: 1.5em; height: 1.5em; line-height: 1.6; text-align: center; display: inline-block; border-radius: 1em; margin-right: .5em;}
 .panel a { text-decoration: none; }
 .panel .content p { font-size: 0.8em; line-height: 1.5em; font-weight: 300; color: #6f6f6f; padding: 10px 0; margin: 0; }
@@ -16,7 +16,7 @@ body { background: #F2F2F2; font-family: 'Montserrat', sans-serif; }
 .panel table { width: 100%; }
 .panel table tr td { padding: 5px 10px; border: 1px solid #ececec; }
 .panel.active { background: #fff !important;}
-.panel.active .heading { background: url("../images/keyboard_arrow_down.svg") no-repeat right;  }
+.panel.active .heading { background: url("../images/keyboard_arrow_up.svg") no-repeat right;  }
 
 .info { font-size: 0.70em; font-weight: 300; color: #b5b5b5; }
 .info a { color: #1ac3b4 !important; text-decoration: none; }
